@@ -1,10 +1,11 @@
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-    int a, b;
+int main()
+{
+    long long a, b;
     cin >> a >> b;
-    cout << (a%10+ b%10) << endl;
+    cout << (a % 10 + b % 10) << endl;
 }
 /*Given two numbers N and M. Print the summation of their last digits.
 
